@@ -1,12 +1,17 @@
-use std::io::stdin;
-use std::io::Read;
 
-fn main() {
-    println!("Hello, world!");
-    println!("Enter a number: ");
-    let mut input_number = String::new();
-    stdin().read_line(&mut input_number).expect("Failed to read line");
-    let input_number: i32 = input_number.trim().parse().expect("Failed to parse number");
-    println!("You entered: {}", input_number);
-    
+
+fn main(){
+    println!("====================");
+    println!("CONTACT BOOK");
+    println!("====================");
+
+    println!("\n \n \n \n");
+
+    println!("1. Add Contact");
+    println!("2. Show Contacts");
+    println!("3. Search Contact");
+    println!("4. Count Contacts");
+    println!("5. Exit");
+
+    println!("Enter your choice: ");
 }

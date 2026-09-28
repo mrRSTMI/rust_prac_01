@@ -1,17 +1,21 @@
 
 
 fn main(){
-    println!("====================");
-    println!("CONTACT BOOK");
-    println!("====================");
+    display_menu();
+}
 
-    println!("\n \n \n \n");
+fn display_menu() {
+    println!("     ====================");
+    println!("\t CONTACT BOOK");
+    println!("     ====================");
 
-    println!("1. Add Contact");
-    println!("2. Show Contacts");
-    println!("3. Search Contact");
-    println!("4. Count Contacts");
-    println!("5. Exit");
+    println!("\n");
 
-    println!("Enter your choice: ");
+    println!("\t1. Add Contact");
+    println!("\t2. Show Contacts");
+    println!("\t3. Search Contact");
+    println!("\t4. Count Contacts");
+    println!("\t5. Exit");
+    println!("\n");
+    println!("\tEnter your choice: ");
 }
